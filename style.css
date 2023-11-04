@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  gap: 2rem;
+}
+
+.button-one {
+  height: 1.5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.button-two {
+  height: 1.5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: dodgerblue;
+  color: white;
+}
+.button-three {
+  height: 1.5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: dodgerblue;
+  color: white;}
+
+.modal {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  position: relative;
+}
+
+.close-button {
+  height: 1.5rem;
+  width: 2rem;
+  position: absolute;
+}
+
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13rem;
+  width: 20rem;
+  background-color: dodgerblue;
+  padding: 2rem;
+}
+
+.close{
+    display: none;
+}
+
+.open{
+    display: flex;
+}
+
